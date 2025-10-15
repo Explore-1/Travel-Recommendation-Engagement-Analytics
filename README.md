@@ -113,10 +113,6 @@ Positive ROI observed for targeted offers (≤10%) focused on high-risk personas
 
 ---
 
-## 🧾 Folder Structure  
-
-
----
 
 ## ⚙️ Technical Specifications  
 
@@ -125,7 +121,7 @@ Positive ROI observed for targeted offers (≤10%) focused on high-risk personas
 | **Language** | Python 3.10 |
 | **Key Libraries** | pandas, numpy, scikit-learn, xgboost, shap, matplotlib, nltk, streamlit |
 | **Validation Strategy** | Time-based split with stratified cross-validation |
-| **Evaluation Metrics** | ROC-AUC, PR-AUC, F1 (churn); MAP@K, NDCG@K (recommendations) |
+| **Evaluation Metrics** | ROC-AUC, PR-AUC, F1 (churn); Cosine similarity inspection (recommendations) |
 | **Interpretability** | SHAP values for global + local feature importance |
 
 ---
