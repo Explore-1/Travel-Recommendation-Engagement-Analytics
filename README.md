@@ -31,7 +31,6 @@ Travel platforms experience **high drop-offs during trip planning** and inconsis
 |----------|--------------|----------|
 | **Hotel Booking Demand** | ~120K tabular booking records with fields like lead time, ADR, special requests, deposit type | Core dataset for churn modeling |
 | **TripAdvisor Hotel Reviews** | Text dataset of hotel reviews and ratings | Feature enrichment and content-based recommendations |
-| **Supplementary (Optional)** | Trip metadata or price index data | Potential feature augmentation |
 
 ---
 
